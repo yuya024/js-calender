@@ -16,8 +16,8 @@ const blankFirstLine = (day) => {
 const dateDisplay = (firstDay, lastDate) => {
   let newLineCounter = firstDay;
 
-  for(let i = 1; i < lastDate + 1; i++) {
-    i < 10 ? process.stdout.write(`  ${i}`) : process.stdout.write(` ${i}`)
+  for(let i = 1; i <= lastDate; i++) {
+    process.stdout.write(String(i).padStart(3, ' '));
 
     // カウンターが７になったら改行、リセット
     newLineCounter++;
