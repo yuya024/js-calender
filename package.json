@@ -1,0 +1,19 @@
+{
+  "name": "calender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuya024/js-calender.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuya024/js-calender/issues"
+  },
+  "homepage": "https://github.com/yuya024/js-calender#readme"
+}
